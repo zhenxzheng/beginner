@@ -22,6 +22,12 @@ git checkout -b new-branch-name
 open index.html in your browser. Open up console to see JS logs. Change and play around with the code to understand it better.
 
 ## 4. Commit your changes
+
+To check what files have changed
+```
+git status
+```
+To add and commit changes
 ```
 git add file file1 file2
 git commit -m 'commit message'
