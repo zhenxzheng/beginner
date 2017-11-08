@@ -18,13 +18,16 @@ The text 'new-branch-name' below can be named anything
 git checkout -b new-branch-name
 ```
 
-## 3. Commit your changes
+## 3. Testing & Making changes
+open index.html in your browser. Open up console to see JS logs. Change and play around with the code to understand it better.
+
+## 4. Commit your changes
 ```
 git add file file1 file2
 git commit -m 'commit message'
 ```
 
-## 4. Push your changes
+## 5. Push your changes
 ```
 git push origin new-branch-name
 ```
