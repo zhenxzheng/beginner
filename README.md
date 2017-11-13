@@ -8,7 +8,11 @@ Contents
 
 In your terminal, type in
 ```
-git clone git@github.com:zhenxzheng/beginner.git
+git@github.com:zhenxzheng/js-intro.git
+```
+then go into that folder by using the cd command (change directory)
+```
+cd js-intro
 ```
 
 ## 2. Create a new branch
