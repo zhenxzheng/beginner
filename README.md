@@ -8,7 +8,7 @@ Contents
 
 In your terminal, type in
 ```
-git@github.com:zhenxzheng/js-intro.git
+git clone git@github.com:zhenxzheng/js-intro.git
 ```
 then go into that folder by using the cd command (change directory)
 ```
