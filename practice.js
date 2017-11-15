@@ -208,12 +208,10 @@ console.log('Your Car Model: ', car.model);
 // TODO: code goes here
 
 if (car.year <= 2002) {
-  console.log('Classis car.')
+  console.log('Classic car.')
   } else if (car.year > 2002) {
-  console.log('Not a Classic car.');
+  console.log('Not a Classic car.')
 };
-
-
 
 /* 
   6.  ARRAY
@@ -228,9 +226,22 @@ if (car.year <= 2002) {
 
 // 6.1
 // TODO: code goes here
+var colors = ['red', 'white', 'blue', 'green', 'yellow'];
 
 // 6.2
 // TODO: code goes here
+ console.log(colors[2]); 
 
 // 6.3
 // TODO: code goes here
+for (var i = 0; i < colors.length; i++) {
+};
+console.log(colors)
+
+
+
+
+
+
+
+
