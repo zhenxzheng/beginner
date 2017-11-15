@@ -236,7 +236,7 @@ var colors = ['red', 'white', 'blue', 'green', 'yellow'];
 // TODO: code goes here
 for (var i = 0; i < colors.length; i++) {
 };
-console.log(colors)
+console.log(colors);
 
 
 
