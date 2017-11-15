@@ -16,11 +16,18 @@
 */
 
 // 1.1
-// TODO: code goes here
+// TODO: code goes here 
+  var streetNumber = '350';
+  var street = '3rd St'; 
+  var city = 'San Francisco';
+  var state = 'CA';
+  var zipCode = '94017';
 
 // 1.2
 // TODO: code goes here
-// console.log(fullAddress);
+// console.log(fullAdress)
+  var fullAdress = streetNumber + ' ' + street + ' ' + city + ' ' + state + ' ' + zipCode;
+  console.log(fullAdress);
 
 
 /*
@@ -40,9 +47,23 @@
 
 // 2.1
 // TODO: code goes here
+  var n1 = 100;
+  var n2 = 5;
 
 // 2.2
 // TODO: code goes here
+  var sum = [n1 + n2];//addition
+  var difference = [n1 - n2];//subtraction
+  var product = [n1 * n2];//multiplication
+  var quotient = [n1 / n2 ];//division
+
+  console.log(sum);
+  console.log(difference);
+  console.log(product);
+  console.log(quotient);
+  //or
+  var allNumberVariables = [sum + ' ' +  difference + ' ' +  product + ' ' +  quotient];
+  console.log(allNumberVariables); //console log all together
 
 
 /*
@@ -75,10 +96,15 @@
 
 // 3.1
 // TODO: code goes here
+    console.log(fullAdress <= '350 3rd St. San Francisco, CA 94017');//= true
+    console.log(difference == 95);//true
+    console.log(product == 500);//true
+    console.log(quotient == 20);//true
 
 // 3.2
 // TODO: code goes here
-
+    var isSF = [city == 'San Francisco'];
+    console.log(isSF);//true
 
 /*
   4.  FUNCTION
@@ -113,6 +139,20 @@
 
 // 4.1
 // TODO: code goes here
+  //version 1
+  function addition(x, y) {
+    return x + y;
+  };
+
+  //or just experiminting
+  var x1 = 1;
+  var y2 = 1;
+  var answer = x1 + y2;
+
+  function addition2(answer) {
+    console.log(addition2)
+  };
+ 
 
 
 /*
