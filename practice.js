@@ -140,15 +140,33 @@
 // 4.1
 // TODO: code goes here
   //version 1
-
-var x = 1
-var y = 1
-
-function addition() {
-  console.log(x + y)
+  function addition(x,y) {
+  return x + y
 }
+//variation A
+  // var answer = addition (100, 100)
+  // console.log(answer)
 
-addition()
+//variation B
+ console.log(addition(100,100));
+
+ //double
+  function double(x) {
+  return x * 2
+}
+  console.log(double(6));
+
+//square
+function square(x) {
+  return x * x
+}
+console.log(square(6));
+ 
+
+ 
+
+
+
 
 /*
   5.  OBJECT
