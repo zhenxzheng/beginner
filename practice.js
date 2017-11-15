@@ -141,33 +141,27 @@
 // TODO: code goes here
   //version 1
   function addition(x,y) {
-  return x + y
-}
-//variation A
+    return x + y
+  }
+  //variation A
   // var answer = addition (100, 100)
   // console.log(answer)
 
-//variation B
- console.log(addition(100,100));
+  //variation B
+  console.log(addition(100,100));
 
- //double
+   //double
   function double(x) {
-  return x * 2
-}
+    return x * 2
+  }
   console.log(double(6));
 
-//square
-function square(x) {
-  return x * x
-}
-console.log(square(6));
+  //square
+  function square(x) {
+    return x * x
+  }
+  console.log(square(6));
  
-
- 
-
-
-
-
 /*
   5.  OBJECT
 
@@ -182,24 +176,43 @@ console.log(square(6));
   forSale   false
 
   5.1 Create an object called car, the car object will have the above properties and values
-
+  
   5.2 After the car object is created, get the model of the car using that object. console log the answer
 
   5.3 Write an if statement. condition is:
       if the car is older than 30 years
-        print 'Classic car.' in console
+      print 'Classic car.' in console
       else print 'Not a classic car.' in console
-
 */
 
 // 5.1
 // TODO: code goes here
+var car = {
 
+  year: 1972,
+  make: 'Datsun',
+  model: '240z',
+  mileage: 173937,
+  color: 'yellow',
+  plate: '123xyz',
+  manual: true,
+  forSale: false
+};
+  
 // 5.2
 // TODO: code goes here
+car.model;
+console.log('Your Car Model: ', car.model);
 
 // 5.3
 // TODO: code goes here
+
+if (car.year <= 2002) {
+  console.log('Classis car.')
+  } else if (car.year > 2002) {
+  console.log('Not a Classic car.');
+};
+
 
 
 /* 
