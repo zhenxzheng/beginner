@@ -52,10 +52,10 @@
 
 // 2.2
 // TODO: code goes here
-  var sum = [n1 + n2];//addition
-  var difference = [n1 - n2];//subtraction
-  var product = [n1 * n2];//multiplication
-  var quotient = [n1 / n2 ];//division
+  var sum = n1 + n2;//addition
+  var difference = n1 - n2;//subtraction
+  var product = n1 * n2;//multiplication
+  var quotient = n1 / n2 ;//division
 
   console.log(sum);
   console.log(difference);
@@ -96,14 +96,14 @@
 
 // 3.1
 // TODO: code goes here
-    console.log(fullAdress <= '350 3rd St. San Francisco, CA 94017');//= true
+    console.log(fullAdress == '350 3rd St San Francisco CA 94017');//true
     console.log(difference == 95);//true
     console.log(product == 500);//true
     console.log(quotient == 20);//true
 
 // 3.2
 // TODO: code goes here
-    var isSF = [city == 'San Francisco'];
+    var isSF = (city == 'San Francisco');
     console.log(isSF);//true
 
 /*
@@ -140,20 +140,15 @@
 // 4.1
 // TODO: code goes here
   //version 1
-  function addition(x, y) {
-    return x + y;
-  };
 
-  //or just experiminting
-  var x1 = 1;
-  var y2 = 1;
-  var answer = x1 + y2;
+var x = 1
+var y = 1
 
-  function addition2(answer) {
-    console.log(addition2)
-  };
- 
+function addition() {
+  console.log(x + y)
+}
 
+addition()
 
 /*
   5.  OBJECT
