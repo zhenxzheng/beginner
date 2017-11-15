@@ -65,7 +65,6 @@
   var allNumberVariables = [sum + ' ' +  difference + ' ' +  product + ' ' +  quotient];
   console.log(allNumberVariables); //console log all together
 
-
 /*
   3.  BOOLEAN
 
@@ -235,8 +234,9 @@ var colors = ['red', 'white', 'blue', 'green', 'yellow'];
 // 6.3
 // TODO: code goes here
 for (var i = 0; i < colors.length; i++) {
+  console.log(colors[i]);
 };
-console.log(colors);
+
 
 
 
