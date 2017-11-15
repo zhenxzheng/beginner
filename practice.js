@@ -188,7 +188,7 @@
 // TODO: code goes here
 var car = {
 
-  year: 1972,
+  year: 2000,
   make: 'Datsun',
   model: '240z',
   mileage: 173937,
@@ -206,10 +206,10 @@ console.log('Your Car Model: ', car.model);
 // 5.3
 // TODO: code goes here
 
-if (car.year <= 2002) {
-  console.log('Classic car.')
-  } else if (car.year > 2002) {
-  console.log('Not a Classic car.')
+if (car.year <= 2000) {
+  console.log('Your ' + car.year + ' ' + car.make + ' is a Classic car.')
+  } else if (car.year >= 2000) {
+  console.log('Your ' + car.year + ' ' + car.make + ' is not a Classic car.')
 };
 
 /* 
