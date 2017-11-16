@@ -188,7 +188,7 @@
 // TODO: code goes here
 var car = {
 
-  year: 1986, //change/add specific year here. 
+  year: 2017, //change/add specific year here. 
   make: 'Datsun',
   model: '240z',
   mileage: 173937,
@@ -206,20 +206,29 @@ console.log('Your Car Model: ', car.model);
 // 5.3
 // TODO: code goes here
 
-// if (car.year <= 2000 && ) {
+//1st attempt
+// if (car.year <= 2000) {
 //   console.log('Your ' + car.year + ' ' + car.make + ' is a Classic car.')
-//   } else if (car.year >= 2000 && ) {
+//   } else (car.year >= 2000) {
 //   console.log('Your ' + car.year + ' ' + car.make + ' is not a Classic car.')
 // };
 
+//2nd attempt
 //relates to line.189
-var modern = 1987;
-var classic = 1986;
+// var modern = 1987;
+// var classic = 1986;
 
-if (car.year <= modern) {
+// if (car.year <= modern) {
+//   console.log('Your ' + car.year + ' ' + car.make + ' is a Classic car.')
+//   } else (car.year >= classic) {
+//   console.log('Your ' + car.year + ' ' + car.make + ' is not a Classic car.')
+// };
+
+//3rd attempt
+if (2017 - car.year >= 30) {
   console.log('Your ' + car.year + ' ' + car.make + ' is a Classic car.')
-  } else if (car.year >= classic) {
-  console.log('Your ' + car.year + ' ' + car.make + ' is not a Classic car.')
+} else {
+  console.log('Your ' + car.year + ' ' + car.make + ' is a Modern Car.')
 };
 
 /* 
